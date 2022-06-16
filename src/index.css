@@ -7,7 +7,38 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.container {
+  max-width: 1080px;
+  width: 500px;
+  margin: 0 auto;
+}
+
+button {
+  padding: 6px 12px;
+  border: none;
+}
+
+.task {
+  background-color: #eee;
+  padding: 12px 8px;
+  margin: 6px;
+}
+
+.del {
+  color: rgb(182, 42, 42);
+  border: 1px solid rgb(182, 42, 42);
+  padding: 3px 5px;
+  margin-top: 8px;
+  cursor: pointer;
 }
